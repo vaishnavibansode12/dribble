@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+.navbar{
+    width: 100%;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    padding-top: 10px;
+    justify-content: space-between;
+}
+.menus{
+    display: flex;
+    width: 30%;
+    height:100%;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.FD{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight:600;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.search{
+    width: 50;
+    height: 40px;
+    gap:10px;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    border-radius: 30px;
+    border:5px solid rgba(255,192,203,0.685);
+}
+
+.accounts{
+    width: 40%;
+    height: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+   /* background-color: aquamarine;*/
+
+}
+input{
+    padding: 1v 6vw;
+    border:none;
+    outline: none;
+}
+
+.search{
+    padding: 1vw 3vw;
+}
+.sign{
+    width:20% ;
+    height: 100%;
+    background-color: black;
+    color: white;
+    border-radius:30px;
+    margin-right: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.log{
+    font-size: 13px;
+}
+.menus h3{
+    font-size: 15px;
+
+}
+.border{
+    border-radius:50px;
+    font-size: 19px;
+    display: flex;
+    background-color: rgb(240, 146, 196);
+    align-items: center;
+    justify-content: center;
+    color:black;
+    margin-left: 600px;
+    margin-top: 140px;
+    height:50px;
+    width:28%;
+}
+.font{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 90px;
+    height: 80%;
+    width:80%;
+    margin-top: 50px;
+    margin-left:200px ;
+}
+.font2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 90px;
+    height: 80%;
+    width:80%;
+    margin-bottom: 200px;
+    margin-left:200px ;
+}
